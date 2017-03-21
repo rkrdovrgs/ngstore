@@ -23,7 +23,7 @@
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
     <UseGlobalApplicationHostFile />
-    <NuGetPackageImportStamp>
+	<NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <TypeScriptToolsVersion>2.1</TypeScriptToolsVersion>
     <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
@@ -307,8 +307,6 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="public\package.json" />
-    <Content Include="public\tsconfig.json" />
-    <Content Include="public\typings.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\Files\" />
